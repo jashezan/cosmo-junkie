@@ -5,14 +5,15 @@ const Contact = () => {
     <section id="contact" name="contact" className="container">
       <h2>Get in Touch</h2>
       <p className="leading">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo,
-        cum voluptas harum corrupti dicta expedita exercitationem modi soluta.
-        Molestias!
+      Don't let yesterday take up too much of today.
       </p>
       <form>
-        <input type="text" name="cosmo-junkie-name" placeholder="" />
-        <input type="email" name="cosmo-junkie-email" placeholder="" />
-        <textarea name="cosmo-junkie-name" placeholder=""></textarea>
+        <label htmlFor="cosmo-junkie-name">Name</label>
+        <input type="text" name="cosmo-junkie-name" placeholder="John Doe" required/>
+        <label htmlFor="cosmo-junkie-email">Email</label>
+        <input type="email" name="cosmo-junkie-email" placeholder="john@example.com" required/>
+        <label htmlFor="cosmo-junkie-msg">Message</label>
+        <textarea name="cosmo-junkie-msg" placeholder="Your Message" required></textarea>
         <button type="submit">Send Flare</button>
       </form>
     </section>

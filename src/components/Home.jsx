@@ -10,7 +10,7 @@ const Home = () => {
         <Link to='portfolio' smooth><button>View My Works</button></Link>
       </div>
       <div className="welcome-img">
-        <img src="/images/banner_image.png" alt="picture of planet" />
+        <img src="https://cdn.jsdelivr.net/gh/jashezan/cosmo-junkie/public/images/banner_image.png" alt="picture of planet" />
       </div>
     </section>
   )

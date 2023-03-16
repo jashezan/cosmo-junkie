@@ -10,7 +10,7 @@ const Footer = () => {
           {socialmediaList.map((socialmedia, index) => {
             return (
               <li key={index}>
-                <a href={socialmedia.link}>
+                <a target="_blank" rel="noreferrer" href={socialmedia.link}>
                   <img src={socialmedia.logo} alt={socialmedia.title} />
                 </a>
               </li>
